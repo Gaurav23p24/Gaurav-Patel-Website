@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(test:*)",
+      "Bash(git init:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx next build)",
+      "Bash(taskkill:*)",
+      "Bash(node:*)",
+      "Bash(dir:*)",
+      "Bash(npx next dev:*)",
+      "Bash(findstr:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm ls:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: personal portfolio website\n\n- Next.js 16 with Tailwind CSS and Framer Motion\n- Home page with animated headline, work history, articles, and footer\n- Work page with carousel of past roles \\(Honeywell, Follio, UNCC, 1Rivet, Skytus\\)\n- Footer with social icons \\(Email, LinkedIn, Medium, X\\)\n- Custom favicon and disabled dev indicators\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
