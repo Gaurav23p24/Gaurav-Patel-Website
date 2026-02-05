@@ -232,14 +232,14 @@ export default function WorkPage() {
 
       {/* Footer */}
       <div className="relative z-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-white/10 pt-6">
-        <div className="flex gap-6">
+        <div className="flex gap-3 sm:gap-6">
           {footerLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-text-secondary hover:text-accent-gold transition-colors text-xs uppercase tracking-wider font-mono"
+              className="flex items-center gap-1 sm:gap-1.5 text-text-secondary hover:text-accent-gold transition-colors text-[10px] sm:text-xs uppercase tracking-wide sm:tracking-wider font-mono"
             >
               {link.icon}
               {link.label}
